@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "PlanIt",
+  "version": "1.0",
+  "icons":{"16":"logo.png"},
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
